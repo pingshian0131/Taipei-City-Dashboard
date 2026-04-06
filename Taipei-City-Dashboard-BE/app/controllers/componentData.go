@@ -17,6 +17,18 @@ GetComponentChartData retrieves the chart data for a component.
 
 header: time_from, time_to (optional)
 */
+// GetComponentChartData godoc
+// @Summary     Get component chart data
+// @Tags        component
+// @Produce     json
+// @Param       id         path      int     true   "Component ID"
+// @Param       city       query     string  false  "City (taipei, metrotaipei)"
+// @Param       time_from  query     string  false  "Start time (RFC3339)"
+// @Param       time_to    query     string  false  "End time (RFC3339)"
+// @Success     200        {object}  map[string]interface{}
+// @Failure     404        {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id}/chart [get]
 func GetComponentChartData(c *gin.Context) {
 	// 1. Get the component id from the URL
 	id, err := strconv.Atoi(c.Param("id"))
@@ -98,6 +110,18 @@ timesteps are automatically determined based on the time range:
   - Within 2 years: month
   - More than 2 years: year
 */
+// GetComponentHistoryData godoc
+// @Summary     Get component history data
+// @Tags        component
+// @Produce     json
+// @Param       id         path      int     true  "Component ID"
+// @Param       city       query     string  false "City (taipei, metrotaipei)"
+// @Param       time_from  query     string  true  "Start time (RFC3339)"
+// @Param       time_to    query     string  true  "End time (RFC3339)"
+// @Success     200        {object}  map[string]interface{}
+// @Failure     404        {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id}/history [get]
 func GetComponentHistoryData(c *gin.Context) {
 	// 1. Get the component id from the URL
 	id, err := strconv.Atoi(c.Param("id"))

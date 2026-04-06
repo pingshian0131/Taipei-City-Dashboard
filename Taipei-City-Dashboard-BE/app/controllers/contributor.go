@@ -13,6 +13,17 @@ import (
 GetAllContributors returns the contributor information
 GET /api/v1/contributor
 */
+// GetAllContributors godoc
+// @Summary     Get all contributors
+// @Tags        contributor
+// @Produce     json
+// @Param       pagesize  query     int     false  "Page size"
+// @Param       pagenum   query     int     false  "Page number"
+// @Param       sort      query     string  false  "Sort column"
+// @Param       order     query     string  false  "asc or desc"
+// @Success     200       {object}  map[string]interface{}
+// @Failure     500       {object}  map[string]interface{}
+// @Router      /contributor [get]
 func GetAllContributors(c *gin.Context) {
 	type contributorQuery struct {
 		PageSize int    `form:"pagesize"`

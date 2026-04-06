@@ -8,6 +8,14 @@ Developed By Taipei Urban Intelligence Center 2023-2024
 // Testing: Jack Huang (Data Scientist), Ian Huang (Data Analysis Intern)
 */
 
+// @title           Taipei City Dashboard API
+// @version         1.0
+// @description     Backend API for Taipei City Dashboard.
+// @host            localhost:8088
+// @BasePath        /api/v1
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Authorization
 package main
 
 import "TaipeiCityDashboardBE/cmd"

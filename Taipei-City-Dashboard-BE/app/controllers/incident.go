@@ -8,6 +8,19 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// GetIncident godoc
+// @Summary     Get all incidents (admin only)
+// @Tags        incident
+// @Produce     json
+// @Param       pagesize        query     int     false  "Page size"
+// @Param       pagenum         query     int     false  "Page number"
+// @Param       filterbystatus  query     string  false  "Filter by status"
+// @Param       sort            query     string  false  "Sort column"
+// @Param       order           query     string  false  "asc or desc"
+// @Success     200             {object}  map[string]interface{}
+// @Failure     500             {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /incident [get]
 func GetIncident(c *gin.Context) {
 	type incidentQuery struct {
 		PageSize       int    `form:"pagesize"`
@@ -30,6 +43,16 @@ func GetIncident(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "total": totalIncidents, "results": resultNum, "data": incidents})
 }
 
+// CreateIncident godoc
+// @Summary     Create an incident (admin only)
+// @Tags        incident
+// @Accept      json
+// @Produce     json
+// @Param       incident  body      models.Incident  true  "Incident"
+// @Success     201       {object}  map[string]interface{}
+// @Failure     400       {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /incident [post]
 func CreateIncident(c *gin.Context) {
 	var incident models.Incident
 	// var buf bytes.Buffer

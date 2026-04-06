@@ -67,6 +67,21 @@ func CreateComponent(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": cityComponent})
 }
 
+// GetAllComponents godoc
+// @Summary     Get all components
+// @Tags        component
+// @Produce     json
+// @Param       city           query     string  false  "City (taipei, metrotaipei)"
+// @Param       pagesize       query     int     false  "Page size"
+// @Param       pagenum        query     int     false  "Page number"
+// @Param       searchbyname   query     string  false  "Search by name"
+// @Param       searchbyindex  query     string  false  "Search by index"
+// @Param       sort           query     string  false  "Sort column"
+// @Param       order          query     string  false  "asc or desc"
+// @Success     200  {object}  map[string]interface{}
+// @Failure     500  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component [get]
 func GetAllComponents(c *gin.Context) {
 	// Get all query parameters from context
 	var query componentQuery
@@ -91,6 +106,16 @@ func GetAllComponents(c *gin.Context) {
 GetComponentByID retrieves a public component from the database by ID.
 GET /api/v1/component/:id
 */
+// GetComponentByID godoc
+// @Summary     Get component by ID
+// @Tags        component
+// @Produce     json
+// @Param       id    path      int     true   "Component ID"
+// @Param       city  query     string  false  "City (taipei, metrotaipei)"
+// @Success     200   {object}  map[string]interface{}
+// @Failure     404   {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id} [get]
 func GetComponentByID(c *gin.Context) {
 	// Get the component ID from the context
 	id, err := strconv.Atoi(c.Param("id"))
@@ -126,6 +151,15 @@ func GetComponentByID(c *gin.Context) {
 GetComponentByIDAll retrieves public components from the database by ID.
 GET /api/v1/component/:id/all
 */
+// GetComponentByIDAll godoc
+// @Summary     Get component by ID (all cities)
+// @Tags        component
+// @Produce     json
+// @Param       id   path      int  true  "Component ID"
+// @Success     200  {object}  map[string]interface{}
+// @Failure     404  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id}/all [get]
 func GetComponentByIDAll(c *gin.Context) {
 	// Get the component ID from the context
 	id, err := strconv.Atoi(c.Param("id"))
@@ -149,6 +183,17 @@ func GetComponentByIDAll(c *gin.Context) {
 UpdateComponent updates a component's config in the database.
 PATCH /api/v1/component/:id
 */
+// UpdateComponent godoc
+// @Summary     Update component config
+// @Tags        component
+// @Accept      json
+// @Produce     json
+// @Param       id    path      int     true   "Component ID"
+// @Param       city  query     string  false  "City (taipei, metrotaipei)"
+// @Success     200   {object}  map[string]interface{}
+// @Failure     404   {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id} [patch]
 func UpdateComponent(c *gin.Context) {
 	var cityComponent models.CityComponent
 
@@ -287,6 +332,15 @@ DELETE /api/v1/component/:id
 
 Note: Associated chart config will also be deleted. Associated map config will only be deleted if no other components are using it.
 */
+// DeleteComponent godoc
+// @Summary     Delete component
+// @Tags        component
+// @Produce     json
+// @Param       id   path      int  true  "Component ID"
+// @Success     200  {object}  map[string]interface{}
+// @Failure     404  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /component/{id} [delete]
 func DeleteComponent(c *gin.Context) {
 	var component models.CityComponent
 	var queryChart models.QueryCharts
@@ -326,6 +380,18 @@ func DeleteComponent(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "chart_deleted": deleteChartStatus, "map_deleted": deleteMapStatus})
 }
 
+// GetComponentByQueryVector godoc
+// @Summary     Semantic search for components
+// @Tags        vector
+// @Accept      x-www-form-urlencoded
+// @Produce     json
+// @Param       query  formData  string  true   "Search query text"
+// @Param       limit  formData  int     false  "Max results (default 10, max 30)"
+// @Param       score  formData  number  false  "Score threshold (default 0.78)"
+// @Success     200    {object}  map[string]interface{}
+// @Failure     404    {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /vector/component [post]
 func GetComponentByQueryVector(c *gin.Context) {
 	query := c.PostForm("query")
 	limit, _ := strconv.Atoi(c.DefaultPostForm("limit", "10"))

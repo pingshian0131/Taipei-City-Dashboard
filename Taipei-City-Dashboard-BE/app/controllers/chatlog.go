@@ -10,6 +10,18 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// CreateChatLog godoc
+// @Summary     Create a chat log entry
+// @Tags        chatlog
+// @Accept      x-www-form-urlencoded
+// @Produce     json
+// @Param       session   formData  string  true  "Session ID"
+// @Param       question  formData  string  true  "User question"
+// @Param       answer    formData  string  true  "AI answer"
+// @Success     200       {object}  map[string]interface{}
+// @Failure     401       {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /chatlog [post]
 func CreateChatLog(c *gin.Context) {
 	var chatLog models.ChatLog
 	
@@ -33,6 +45,14 @@ func CreateChatLog(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": chatLog})
 }
 
+// GetALLChatLog godoc
+// @Summary     Get all chat log sessions
+// @Tags        chatlog
+// @Produce     json
+// @Success     200  {object}  map[string]interface{}
+// @Failure     401  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /chatlog/session [get]
 func GetALLChatLog(c *gin.Context) {
 	var chatLogList []models.ChatLog
 	
@@ -61,6 +81,15 @@ func GetALLChatLog(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": summaries})
 }
 
+// GetChatLogDetailBySession godoc
+// @Summary     Get chat log by session ID
+// @Tags        chatlog
+// @Produce     json
+// @Param       session  path      string  true  "Session ID"
+// @Success     200      {object}  map[string]interface{}
+// @Failure     401      {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /chatlog/session/{session} [get]
 func GetChatLogDetailBySession(c *gin.Context) {
 
 	var chatLogList []models.ChatLog

@@ -14,8 +14,11 @@ import (
 	"TaipeiCityDashboardBE/app/controllers"
 	"TaipeiCityDashboardBE/app/middleware"
 	"TaipeiCityDashboardBE/global"
+	_ "TaipeiCityDashboardBE/docs"
 
 	"github.com/gin-gonic/gin"
+	swaggerFiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // router.go configures all API routes
@@ -27,6 +30,9 @@ var (
 
 // ConfigureRoutes configures all routes for the API and sets version router groups.
 func ConfigureRoutes() {
+	// Swagger UI
+	Router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+
 	Router.Use(middleware.ValidateJWT)
 	// API routers
 	RouterGroup = Router.Group("/api/" + global.VERSION)

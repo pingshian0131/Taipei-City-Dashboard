@@ -21,6 +21,14 @@ GET /api/v1/dashboard
 Guest: Only public dashboards
 User, Admin: Public and personal dashboards
 */
+// GetAllDashboards godoc
+// @Summary     Get all dashboards
+// @Tags        dashboard
+// @Produce     json
+// @Success     200  {object}  map[string]interface{}
+// @Failure     500  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /dashboard [get]
 func GetAllDashboards(c *gin.Context) {
 	// Get the user info from the context
 	_, accountID, _, _, _ := util.GetUserInfoFromContext(c)
@@ -50,6 +58,16 @@ GET /api/v1/dashboard/:index
 Guest: Only public dashboards
 User, Admin: Public and personal dashboards
 */
+// GetDashboardByIndex godoc
+// @Summary     Get dashboard by index
+// @Tags        dashboard
+// @Produce     json
+// @Param       index  path      string  true  "Dashboard index"
+// @Param       city   query     string  false "City name (taipei, metrotaipei)"
+// @Success     200    {object}  map[string]interface{}
+// @Failure     404    {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /dashboard/{index} [get]
 func GetDashboardByIndex(c *gin.Context) {
 	_, _, _, _, permissions := util.GetUserInfoFromContext(c)
 	groups := util.GetPermissionAllGroupIDs(permissions)
@@ -95,6 +113,16 @@ POST /api/v1/dashboard
 Guest: Forbidden
 User, Admin: Allowed
 */
+// CreatePersonalDashboard godoc
+// @Summary     Create personal dashboard
+// @Tags        dashboard
+// @Accept      json
+// @Produce     json
+// @Param       dashboard  body      models.Dashboard  true  "Dashboard"
+// @Success     200        {object}  map[string]interface{}
+// @Failure     400        {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /dashboard [post]
 func CreatePersonalDashboard(c *gin.Context) {
 	var dashboard models.Dashboard
 
@@ -212,6 +240,17 @@ Guest: Forbidden
 User: Only personal dashboards
 Admin: Public and personal dashboards
 */
+// UpdateDashboard godoc
+// @Summary     Update dashboard
+// @Tags        dashboard
+// @Accept      json
+// @Produce     json
+// @Param       index      path      string            true  "Dashboard index"
+// @Param       dashboard  body      models.Dashboard  true  "Dashboard"
+// @Success     200        {object}  map[string]interface{}
+// @Failure     500        {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /dashboard/{index} [patch]
 func UpdateDashboard(c *gin.Context) {
 	var dashboard models.Dashboard
 
@@ -248,6 +287,15 @@ Guest: Forbidden
 User: Only personal dashboards
 Admin: Public and personal dashboards
 */
+// DeleteDashboard godoc
+// @Summary     Delete dashboard
+// @Tags        dashboard
+// @Produce     json
+// @Param       index  path      string  true  "Dashboard index"
+// @Success     200    {object}  map[string]interface{}
+// @Failure     500    {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /dashboard/{index} [delete]
 func DeleteDashboard(c *gin.Context) {
 	_, _, _, _, permissions := util.GetUserInfoFromContext(c)
 	adminGroups := util.GetPermissionGroupIDs(permissions, 1)  // role=admin

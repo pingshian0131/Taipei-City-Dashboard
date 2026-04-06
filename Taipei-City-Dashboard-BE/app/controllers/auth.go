@@ -20,6 +20,15 @@ const (
 	emailRegex = "^\\w+((-\\w+)|(\\.\\w+))*\\@[A-Za-z0-9]+((\\.|-)[A-Za-z0-9]+)*\\.[A-Za-z]+$"
 )
 
+// Login godoc
+// @Summary     Login with email and password
+// @Tags        auth
+// @Accept      json
+// @Produce     json
+// @Param       Authorization  header    string  true  "Basic base64(email:password)"
+// @Success     200  {object}  map[string]interface{}
+// @Failure     401  {object}  map[string]interface{}
+// @Router      /auth/login [post]
 func Login(c *gin.Context) {
 	var user models.AuthUser
 

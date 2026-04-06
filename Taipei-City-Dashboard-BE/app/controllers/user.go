@@ -13,6 +13,14 @@ import (
 GetUserInfo returns the user information of the current user
 GET /api/v1/user/me
 */
+// GetUserInfo godoc
+// @Summary     Get current user info
+// @Tags        user
+// @Produce     json
+// @Success     200  {object}  map[string]interface{}
+// @Failure     404  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /user/me [get]
 func GetUserInfo(c *gin.Context) {
 	userID := c.GetInt("accountID")
 	user, err := models.GetUserByID(userID)
@@ -28,6 +36,15 @@ func GetUserInfo(c *gin.Context) {
 EditUserInfo updates the user information of the current user
 PATCH /api/v1/user/me
 */
+// EditUserInfo godoc
+// @Summary     Update current user info
+// @Tags        user
+// @Accept      json
+// @Produce     json
+// @Success     200  {object}  map[string]interface{}
+// @Failure     400  {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /user/me [patch]
 func EditUserInfo(c *gin.Context) {
 	var user models.AuthUser
 	userID := c.GetInt("accountID")
@@ -60,6 +77,20 @@ type userQuery struct {
 GetAllUsers returns all users
 GET /api/v1/user
 */
+// GetAllUsers godoc
+// @Summary     Get all users (admin only)
+// @Tags        user
+// @Produce     json
+// @Param       pagesize      query     int     false  "Page size"
+// @Param       pagenum       query     int     false  "Page number"
+// @Param       sort          query     string  false  "Sort column"
+// @Param       order         query     string  false  "asc or desc"
+// @Param       searchbyid    query     string  false  "Search by ID"
+// @Param       searchbyname  query     string  false  "Search by name"
+// @Success     200           {object}  map[string]interface{}
+// @Failure     500           {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /user [get]
 func GetAllUsers(c *gin.Context) {
 	var users []models.AuthUser // Create a slice of components
 	var totalUsers int64        // Create a variable to store the total amount of components

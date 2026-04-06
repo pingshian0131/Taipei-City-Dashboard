@@ -21,6 +21,19 @@ GET /api/v1/issue
 | order          | Ascending or descending.                        | `asc`, `desc` | `asc`   |
 */
 
+// GetAllIssues godoc
+// @Summary     Get all issues (admin only)
+// @Tags        issue
+// @Produce     json
+// @Param       pagesize        query     int     false  "Page size"
+// @Param       pagenum         query     int     false  "Page number"
+// @Param       filterbystatus  query     string  false  "Filter by status"
+// @Param       sort            query     string  false  "Sort column"
+// @Param       order           query     string  false  "asc or desc"
+// @Success     200             {object}  map[string]interface{}
+// @Failure     500             {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /issue [get]
 func GetAllIssues(c *gin.Context) {
 	type issueQuery struct {
 		PageSize       int    `form:"pagesize"`
@@ -48,6 +61,16 @@ CreateIssue creates a new issue
 POST /api/v1/issue
 */
 
+// CreateIssue godoc
+// @Summary     Create an issue
+// @Tags        issue
+// @Accept      json
+// @Produce     json
+// @Param       issue  body      models.Issue  true  "Issue"
+// @Success     200    {object}  map[string]interface{}
+// @Failure     400    {object}  map[string]interface{}
+// @Security    BearerAuth
+// @Router      /issue [post]
 func CreateIssue(c *gin.Context) {
 	var issue models.Issue
 
