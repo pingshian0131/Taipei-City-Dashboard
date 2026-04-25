@@ -1,0 +1,89 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "大安國小",
+				"district": "大安區",
+				"parking_capacity": 80,
+				"contact": "02-2754-1675"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5446, 25.0289] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "信義國小",
+				"district": "信義區",
+				"parking_capacity": 60,
+				"contact": "02-2761-9821"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5687, 25.0356] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "古亭國小",
+				"district": "中正區",
+				"parking_capacity": 50,
+				"contact": "02-2391-5079"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5267, 25.0260] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "民族國小",
+				"district": "中山區",
+				"parking_capacity": 70,
+				"contact": "02-2585-7390"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5320, 25.0680] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "西門國小",
+				"district": "萬華區",
+				"parking_capacity": 45,
+				"contact": "02-2381-2484"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5036, 25.0399] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "南港國小",
+				"district": "南港區",
+				"parking_capacity": 90,
+				"contact": "02-2783-1004"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.6058, 25.0539] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "內湖國小",
+				"district": "內湖區",
+				"parking_capacity": 100,
+				"contact": "02-2797-2477"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5884, 25.0842] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"school_name": "士林國小",
+				"district": "士林區",
+				"parking_capacity": 65,
+				"contact": "02-2881-5582"
+			},
+			"geometry": { "type": "Point", "coordinates": [121.5238, 25.0935] }
+		}
+	]
+}

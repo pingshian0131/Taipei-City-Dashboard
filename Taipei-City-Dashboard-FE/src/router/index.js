@@ -18,6 +18,7 @@ import MapView from "../views/MapView.vue";
 import ComponentView from "../views/ComponentView.vue";
 import ComponentInfoView from "../views/ComponentInfoView.vue";
 import EmbedView from "../views/EmbedView.vue";
+import FloodRadarView from "../views/FloodRadarView.vue";
 
 const routes = [
 	{
@@ -38,6 +39,11 @@ const routes = [
 		path: "/mapview",
 		name: "mapview",
 		component: MapView,
+	},
+	{
+		path: "/flood-radar",
+		name: "flood-radar",
+		component: FloodRadarView,
 	},
 	{
 		path: "/component",

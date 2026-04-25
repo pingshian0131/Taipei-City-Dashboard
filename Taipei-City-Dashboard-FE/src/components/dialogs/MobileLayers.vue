@@ -37,10 +37,18 @@ const filteredMapLayers = computed(() => {
       />
       <div class="dialogcontainer-dialog">
         <div class="mobilelayers">
+          <!-- No dashboard context (e.g. standalone demo views) -->
+          <div
+            v-if="!contentStore?.currentDashboard?.index"
+            class="mobilelayers-empty"
+          >
+            <span>layers_clear</span>
+            <p>尚無圖層資料</p>
+          </div>
           <!-- Map Layers Dashboard -->
           <div
-            v-if="
-              contentStore?.currentDashboard.index.includes('map-layers')
+            v-else-if="
+              contentStore.currentDashboard.index.includes('map-layers')
             "
           >
             <MobileLayerTab
@@ -126,6 +134,25 @@ const filteredMapLayers = computed(() => {
 
 	h2 {
 		margin-bottom: 8px;
+	}
+
+	&-empty {
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: var(--font-m) 4px;
+		color: var(--color-complement-text);
+
+		span {
+			margin-bottom: var(--font-s);
+			font-family: var(--font-icon);
+			font-size: 1.6rem;
+		}
+
+		p {
+			font-size: var(--font-s);
+		}
 	}
 }
 
