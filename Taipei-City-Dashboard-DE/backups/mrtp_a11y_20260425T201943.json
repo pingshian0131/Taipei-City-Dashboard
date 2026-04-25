@@ -1,0 +1,4200 @@
+{
+    "mrtp_a11y_alert": [
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        }
+    ],
+    "mrtp_a11y_elevator": [
+        {
+            "lat": 24.9982136,
+            "lng": 121.5797157,
+            "exit_no": "出口1",
+            "station": "動物園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5797157,
+                    24.9982136
+                ]
+            },
+            "facility_name": "動物園站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.99809,
+            "lng": 121.5795233,
+            "exit_no": "出口2",
+            "station": "動物園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5795233,
+                    24.99809
+                ]
+            },
+            "facility_name": "動物園站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9980328,
+            "lng": 121.5732164,
+            "exit_no": "單一出口",
+            "station": "木柵",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5732164,
+                    24.9980328
+                ]
+            },
+            "facility_name": "木柵站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.9984689,
+            "lng": 121.5685909,
+            "exit_no": "單一出口",
+            "station": "萬芳社區",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5685909,
+                    24.9984689
+                ]
+            },
+            "facility_name": "萬芳社區站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.999444,
+            "lng": 121.5577226,
+            "exit_no": "單一出口",
+            "station": "萬芳醫院",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5577226,
+                    24.999444
+                ]
+            },
+            "facility_name": "萬芳醫院站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0049724,
+            "lng": 121.55687,
+            "exit_no": "單一出口",
+            "station": "辛亥",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.55687,
+                    25.0049724
+                ]
+            },
+            "facility_name": "辛亥站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0185611,
+            "lng": 121.5585119,
+            "exit_no": "單一出口",
+            "station": "麟光",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5585119,
+                    25.0185611
+                ]
+            },
+            "facility_name": "麟光站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0239482,
+            "lng": 121.5530381,
+            "exit_no": "單一出口",
+            "station": "六張犁",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5530381,
+                    25.0239482
+                ]
+            },
+            "facility_name": "六張犁站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0259248,
+            "lng": 121.5436129,
+            "exit_no": "單一出口",
+            "station": "科技大樓",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5436129,
+                    25.0259248
+                ]
+            },
+            "facility_name": "科技大樓站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.060821,
+            "lng": 121.543878,
+            "exit_no": "單一出口",
+            "station": "中山國中",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.543878,
+                    25.060821
+                ]
+            },
+            "facility_name": "中山國中站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.063569,
+            "lng": 121.551838,
+            "exit_no": "出口1",
+            "station": "松山機場",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.551838,
+                    25.063569
+                ]
+            },
+            "facility_name": "松山機場站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.063545,
+            "lng": 121.551306,
+            "exit_no": "出口2",
+            "station": "松山機場",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.551306,
+                    25.063545
+                ]
+            },
+            "facility_name": "松山機場站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.063084,
+            "lng": 121.551416,
+            "exit_no": "出口3",
+            "station": "松山機場",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.551416,
+                    25.063084
+                ]
+            },
+            "facility_name": "松山機場站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.080305,
+            "lng": 121.546907,
+            "exit_no": "出口1",
+            "station": "大直",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.546907,
+                    25.080305
+                ]
+            },
+            "facility_name": "大直站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.079466,
+            "lng": 121.546978,
+            "exit_no": "出口3",
+            "station": "大直",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.546978,
+                    25.079466
+                ]
+            },
+            "facility_name": "大直站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.085243,
+            "lng": 121.555259,
+            "exit_no": "出口1",
+            "station": "劍南路",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.555259,
+                    25.085243
+                ]
+            },
+            "facility_name": "劍南路站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.084514,
+            "lng": 121.555317,
+            "exit_no": "出口2",
+            "station": "劍南路",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.555317,
+                    25.084514
+                ]
+            },
+            "facility_name": "劍南路站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.082392,
+            "lng": 121.56678,
+            "exit_no": "出口1",
+            "station": "西湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.56678,
+                    25.082392
+                ]
+            },
+            "facility_name": "西湖站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.081974,
+            "lng": 121.567149,
+            "exit_no": "出口2",
+            "station": "西湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.567149,
+                    25.081974
+                ]
+            },
+            "facility_name": "西湖站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.080102,
+            "lng": 121.575653,
+            "exit_no": "出口1",
+            "station": "港墘",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.575653,
+                    25.080102
+                ]
+            },
+            "facility_name": "港墘站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.079967,
+            "lng": 121.574987,
+            "exit_no": "出口2",
+            "station": "港墘",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.574987,
+                    25.079967
+                ]
+            },
+            "facility_name": "港墘站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.078685,
+            "lng": 121.585716,
+            "exit_no": "出口1",
+            "station": "文德",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.585716,
+                    25.078685
+                ]
+            },
+            "facility_name": "文德站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.078375,
+            "lng": 121.584662,
+            "exit_no": "出口2",
+            "station": "文德",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.584662,
+                    25.078375
+                ]
+            },
+            "facility_name": "文德站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.083769,
+            "lng": 121.59425,
+            "exit_no": "出口1",
+            "station": "內湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.59425,
+                    25.083769
+                ]
+            },
+            "facility_name": "內湖站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.083611,
+            "lng": 121.59456,
+            "exit_no": "出口2",
+            "station": "內湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.59456,
+                    25.083611
+                ]
+            },
+            "facility_name": "內湖站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.083925,
+            "lng": 121.602502,
+            "exit_no": "出口1",
+            "station": "大湖公園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.602502,
+                    25.083925
+                ]
+            },
+            "facility_name": "大湖公園站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.083461,
+            "lng": 121.602575,
+            "exit_no": "出口2",
+            "station": "大湖公園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.602575,
+                    25.083461
+                ]
+            },
+            "facility_name": "大湖公園站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.072502,
+            "lng": 121.608053,
+            "exit_no": "出口1",
+            "station": "葫洲",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.608053,
+                    25.072502
+                ]
+            },
+            "facility_name": "葫洲站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.072579,
+            "lng": 121.60721,
+            "exit_no": "出口2",
+            "station": "葫洲",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.60721,
+                    25.072579
+                ]
+            },
+            "facility_name": "葫洲站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.067189,
+            "lng": 121.611238,
+            "exit_no": "出口1",
+            "station": "東湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.611238,
+                    25.067189
+                ]
+            },
+            "facility_name": "東湖站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.067189,
+            "lng": 121.611238,
+            "exit_no": "出口2",
+            "station": "東湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.611238,
+                    25.067189
+                ]
+            },
+            "facility_name": "東湖站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.067105,
+            "lng": 121.611712,
+            "exit_no": "出口3",
+            "station": "東湖",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.611712,
+                    25.067105
+                ]
+            },
+            "facility_name": "東湖站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.060362,
+            "lng": 121.615825,
+            "exit_no": "出口1",
+            "station": "南港軟體園區",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.615825,
+                    25.060362
+                ]
+            },
+            "facility_name": "南港軟體園區站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.060064,
+            "lng": 121.616363,
+            "exit_no": "出口2",
+            "station": "南港軟體園區",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.616363,
+                    25.060064
+                ]
+            },
+            "facility_name": "南港軟體園區站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.033084,
+            "lng": 121.517842,
+            "exit_no": "出口1",
+            "station": "中正紀念堂",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.517842,
+                    25.033084
+                ]
+            },
+            "facility_name": "中正紀念堂站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.035103,
+            "lng": 121.517005,
+            "exit_no": "出口5",
+            "station": "中正紀念堂",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.517005,
+                    25.035103
+                ]
+            },
+            "facility_name": "中正紀念堂站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.04134,
+            "lng": 121.515821,
+            "exit_no": "出口1",
+            "station": "台大醫院",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.515821,
+                    25.04134
+                ]
+            },
+            "facility_name": "台大醫院站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.041416,
+            "lng": 121.516669,
+            "exit_no": "出口2",
+            "station": "台大醫院",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.516669,
+                    25.041416
+                ]
+            },
+            "facility_name": "台大醫院站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.042997,
+            "lng": 121.516529,
+            "exit_no": "出口3",
+            "station": "台大醫院",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.516529,
+                    25.042997
+                ]
+            },
+            "facility_name": "台大醫院站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0482356,
+            "lng": 121.5186428,
+            "exit_no": "M2",
+            "station": "台北車",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5186428,
+                    25.0482356
+                ]
+            },
+            "facility_name": "台北車站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0463906,
+            "lng": 121.5172729,
+            "exit_no": "M4",
+            "station": "台北車",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5172729,
+                    25.0463906
+                ]
+            },
+            "facility_name": "台北車站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.053263,
+            "lng": 121.520397,
+            "exit_no": "出口4",
+            "station": "中山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.520397,
+                    25.053263
+                ]
+            },
+            "facility_name": "中山站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0529936,
+            "lng": 121.5194307,
+            "exit_no": "出口5",
+            "station": "中山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5194307,
+                    25.0529936
+                ]
+            },
+            "facility_name": "中山站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0527938,
+            "lng": 121.5189288,
+            "exit_no": "出口6",
+            "station": "中山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5189288,
+                    25.0527938
+                ]
+            },
+            "facility_name": "中山站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0583407,
+            "lng": 121.5207916,
+            "exit_no": "出口2",
+            "station": "雙連",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5207916,
+                    25.0583407
+                ]
+            },
+            "facility_name": "雙連站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.062607,
+            "lng": 121.5194143,
+            "exit_no": "出口1",
+            "station": "民權西路",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5194143,
+                    25.062607
+                ]
+            },
+            "facility_name": "民權西路站無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.063046,
+            "lng": 121.520284,
+            "exit_no": "出口10",
+            "station": "民權西路",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.520284,
+                    25.063046
+                ]
+            },
+            "facility_name": "民權西路站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0708481,
+            "lng": 121.5201311,
+            "exit_no": "出口1",
+            "station": "圓山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5201311,
+                    25.0708481
+                ]
+            },
+            "facility_name": "圓山站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 250717908,
+            "lng": 121.5201211,
+            "exit_no": "出口2",
+            "station": "圓山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5201211,
+                    250717908
+                ]
+            },
+            "facility_name": "圓山站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0831111,
+            "lng": 121.5246738,
+            "exit_no": "出口2",
+            "station": "劍潭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5246738,
+                    25.0831111
+                ]
+            },
+            "facility_name": "劍潭站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0844966,
+            "lng": 121.5248293,
+            "exit_no": "出口3",
+            "station": "劍潭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5248293,
+                    25.0844966
+                ]
+            },
+            "facility_name": "劍潭站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0853554,
+            "lng": 121.525232,
+            "exit_no": "出口1",
+            "station": "劍潭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.525232,
+                    25.0853554
+                ]
+            },
+            "facility_name": "劍潭站出口無障礙坡道3",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0943692,
+            "lng": 121.5260095,
+            "exit_no": "出口1",
+            "station": "士林",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5260095,
+                    25.0943692
+                ]
+            },
+            "facility_name": "士林站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0928411,
+            "lng": 121.5265121,
+            "exit_no": "出口2",
+            "station": "士林",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5265121,
+                    25.0928411
+                ]
+            },
+            "facility_name": "士林站出口",
+            "facility_type": "other"
+        },
+        {
+            "lat": 25.1022269,
+            "lng": 121.5227124,
+            "exit_no": "出口1",
+            "station": "芝山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5227124,
+                    25.1022269
+                ]
+            },
+            "facility_name": "芝山站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1033976,
+            "lng": 121.5225176,
+            "exit_no": "出口2",
+            "station": "芝山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5225176,
+                    25.1033976
+                ]
+            },
+            "facility_name": "芝山站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1096709,
+            "lng": 121.5190445,
+            "exit_no": "出口1",
+            "station": "明德",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5190445,
+                    25.1096709
+                ]
+            },
+            "facility_name": "明德站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1101898,
+            "lng": 121.5186723,
+            "exit_no": "出口2",
+            "station": "明德",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5186723,
+                    25.1101898
+                ]
+            },
+            "facility_name": "明德站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1099766,
+            "lng": 121.5184571,
+            "exit_no": "出口3",
+            "station": "明德",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5184571,
+                    25.1099766
+                ]
+            },
+            "facility_name": "明德站出口無障礙坡道3",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1149572,
+            "lng": 121.5152921,
+            "exit_no": "出口1",
+            "station": "石牌",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5152921,
+                    25.1149572
+                ]
+            },
+            "facility_name": "石牌站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1134105,
+            "lng": 121.5164183,
+            "exit_no": "出口2",
+            "station": "石牌",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5164183,
+                    25.1134105
+                ]
+            },
+            "facility_name": "石牌站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.12122,
+            "lng": 121.506658,
+            "exit_no": "出口1",
+            "station": "唭哩岸",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.506658,
+                    25.12122
+                ]
+            },
+            "facility_name": "唭哩岸站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.120589,
+            "lng": 121.505855,
+            "exit_no": "出口2",
+            "station": "唭哩岸",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.505855,
+                    25.120589
+                ]
+            },
+            "facility_name": "唭哩岸站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.125424,
+            "lng": 121.501278,
+            "exit_no": "單一出口",
+            "station": "奇岩",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.501278,
+                    25.125424
+                ]
+            },
+            "facility_name": "奇岩站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1320345,
+            "lng": 121.4980606,
+            "exit_no": "出口1",
+            "station": "北投",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4980606,
+                    25.1320345
+                ]
+            },
+            "facility_name": "北投站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.130682,
+            "lng": 121.499581,
+            "exit_no": "出口2",
+            "station": "北投",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.499581,
+                    25.130682
+                ]
+            },
+            "facility_name": "北投站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1370048,
+            "lng": 121.5034816,
+            "exit_no": "出口1",
+            "station": "新北投",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5034816,
+                    25.1370048
+                ]
+            },
+            "facility_name": "新北投站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.137716,
+            "lng": 121.485578,
+            "exit_no": "出口1",
+            "station": "復興崗",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.485578,
+                    25.137716
+                ]
+            },
+            "facility_name": "復興崗站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.136726,
+            "lng": 121.485457,
+            "exit_no": "出口2",
+            "station": "復興崗",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.485457,
+                    25.136726
+                ]
+            },
+            "facility_name": "復興崗站出口二北投會館電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.131207,
+            "lng": 121.473407,
+            "exit_no": "出口1",
+            "station": "忠義",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.473407,
+                    25.131207
+                ]
+            },
+            "facility_name": "忠義站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.130769,
+            "lng": 121.473562,
+            "exit_no": "出口2",
+            "station": "忠義",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.473562,
+                    25.130769
+                ]
+            },
+            "facility_name": "忠義站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1250083,
+            "lng": 121.4675726,
+            "exit_no": "出口1",
+            "station": "關渡",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4675726,
+                    25.1250083
+                ]
+            },
+            "facility_name": "關渡站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1253377,
+            "lng": 121.466675,
+            "exit_no": "出口2",
+            "station": "關渡",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.466675,
+                    25.1253377
+                ]
+            },
+            "facility_name": "關渡站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.136649,
+            "lng": 121.459726,
+            "exit_no": "出口1",
+            "station": "竹圍",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.459726,
+                    25.136649
+                ]
+            },
+            "facility_name": "竹圍站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.136448,
+            "lng": 121.45946,
+            "exit_no": "出口2",
+            "station": "竹圍",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.45946,
+                    25.136448
+                ]
+            },
+            "facility_name": "竹圍站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.15413,
+            "lng": 121.458976,
+            "exit_no": "出口1",
+            "station": "紅樹林",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.458976,
+                    25.15413
+                ]
+            },
+            "facility_name": "紅樹林站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.168262,
+            "lng": 121.445143,
+            "exit_no": "出口1",
+            "station": "淡水",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.445143,
+                    25.168262
+                ]
+            },
+            "facility_name": "淡水站出口無障礙坡道1",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.1668843,
+            "lng": 121.4469078,
+            "exit_no": "出口2",
+            "station": "淡水",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4469078,
+                    25.1668843
+                ]
+            },
+            "facility_name": "淡水站出口無障礙坡道2",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0340168,
+            "lng": 121.528853,
+            "exit_no": "出口8",
+            "station": "東門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.528853,
+                    25.0340168
+                ]
+            },
+            "facility_name": "東門站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.03336,
+            "lng": 121.535601,
+            "exit_no": "出口4",
+            "station": "大安森林公園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.535601,
+                    25.03336
+                ]
+            },
+            "facility_name": "大安森林公園站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.033337,
+            "lng": 121.536211,
+            "exit_no": "出口5",
+            "station": "大安森林公園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.536211,
+                    25.033337
+                ]
+            },
+            "facility_name": "大安森林公園站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.033668,
+            "lng": 121.536001,
+            "exit_no": "出口6",
+            "station": "大安森林公園",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.536001,
+                    25.033668
+                ]
+            },
+            "facility_name": "大安森林公園站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0330538,
+            "lng": 121.5438737,
+            "exit_no": "出口4",
+            "station": "大安",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5438737,
+                    25.0330538
+                ]
+            },
+            "facility_name": "大安站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0332333,
+            "lng": 121.5428162,
+            "exit_no": "出口3",
+            "station": "大安",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5428162,
+                    25.0332333
+                ]
+            },
+            "facility_name": "大安站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0333518,
+            "lng": 121.553532,
+            "exit_no": "出口5",
+            "station": "信義安和",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.553532,
+                    25.0333518
+                ]
+            },
+            "facility_name": "信義安和站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.032848,
+            "lng": 121.552582,
+            "exit_no": "出口2A",
+            "station": "信義安和",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.552582,
+                    25.032848
+                ]
+            },
+            "facility_name": "信義安和站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0328327,
+            "lng": 121.5635594,
+            "exit_no": "出口3",
+            "station": "台北101/世貿",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5635594,
+                    25.0328327
+                ]
+            },
+            "facility_name": "台北101/世貿站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.033438,
+            "lng": 121.564258,
+            "exit_no": "出口4",
+            "station": "台北101/世貿",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.564258,
+                    25.033438
+                ]
+            },
+            "facility_name": "台北101/世貿站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0332826,
+            "lng": 121.5632533,
+            "exit_no": "出口5",
+            "station": "台北101/世貿",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5632533,
+                    25.0332826
+                ]
+            },
+            "facility_name": "台北101/世貿站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0329001,
+            "lng": 121.5699193,
+            "exit_no": "出口1",
+            "station": "象山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5699193,
+                    25.0329001
+                ]
+            },
+            "facility_name": "象山站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0323724,
+            "lng": 121.5699857,
+            "exit_no": "出口2",
+            "station": "象山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5699857,
+                    25.0323724
+                ]
+            },
+            "facility_name": "象山站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.971847,
+            "lng": 121.529713,
+            "exit_no": "出口1",
+            "station": "小碧潭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.529713,
+                    24.971847
+                ]
+            },
+            "facility_name": "小碧潭站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.972786,
+            "lng": 121.530325,
+            "exit_no": "出口2",
+            "station": "小碧潭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.530325,
+                    24.972786
+                ]
+            },
+            "facility_name": "小碧潭站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9582166,
+            "lng": 121.5380637,
+            "exit_no": "單一出口",
+            "station": "新店",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5380637,
+                    24.9582166
+                ]
+            },
+            "facility_name": "新店站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.9674356,
+            "lng": 121.5413377,
+            "exit_no": "出口1",
+            "station": "新店區公所",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5413377,
+                    24.9674356
+                ]
+            },
+            "facility_name": "新店區公所站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.9750321,
+            "lng": 121.5430452,
+            "exit_no": "出口1",
+            "station": "七張",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5430452,
+                    24.9750321
+                ]
+            },
+            "facility_name": "七張站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.9830488,
+            "lng": 121.5415144,
+            "exit_no": "出口3",
+            "station": "大坪林",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5415144,
+                    24.9830488
+                ]
+            },
+            "facility_name": "大坪林站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.982745,
+            "lng": 121.543016,
+            "exit_no": "出口5",
+            "station": "大坪林",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.543016,
+                    24.982745
+                ]
+            },
+            "facility_name": "大坪林站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9922546,
+            "lng": 121.5406986,
+            "exit_no": "出口1",
+            "station": "景美",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5406986,
+                    24.9922546
+                ]
+            },
+            "facility_name": "景美站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0026433,
+            "lng": 121.5385753,
+            "exit_no": "出口4",
+            "station": "萬隆",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5385753,
+                    25.0026433
+                ]
+            },
+            "facility_name": "萬隆站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.014389,
+            "lng": 121.534447,
+            "exit_no": "出口1",
+            "station": "公館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.534447,
+                    25.014389
+                ]
+            },
+            "facility_name": "公館站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0147524,
+            "lng": 121.5348058,
+            "exit_no": "出口2",
+            "station": "公館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5348058,
+                    25.0147524
+                ]
+            },
+            "facility_name": "公館站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0207409,
+            "lng": 121.5277402,
+            "exit_no": "出口5",
+            "station": "台電大樓",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5277402,
+                    25.0207409
+                ]
+            },
+            "facility_name": "台電大樓站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0260885,
+            "lng": 121.5229582,
+            "exit_no": "出口1",
+            "station": "古亭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5229582,
+                    25.0260885
+                ]
+            },
+            "facility_name": "古亭站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0352732,
+            "lng": 121.5113653,
+            "exit_no": "出口3",
+            "station": "小南門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5113653,
+                    25.0352732
+                ]
+            },
+            "facility_name": "小南門站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0498633,
+            "lng": 121.5774127,
+            "exit_no": "出口3",
+            "station": "松山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5774127,
+                    25.0498633
+                ]
+            },
+            "facility_name": "松山站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.050249,
+            "lng": 121.578121,
+            "exit_no": "出口5",
+            "station": "松山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.578121,
+                    25.050249
+                ]
+            },
+            "facility_name": "松山站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0516268,
+            "lng": 121.5633234,
+            "exit_no": "出口1",
+            "station": "南京三民",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5633234,
+                    25.0516268
+                ]
+            },
+            "facility_name": "南京三民站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0513204,
+            "lng": 121.5635433,
+            "exit_no": "出口2",
+            "station": "南京三民",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5635433,
+                    25.0513204
+                ]
+            },
+            "facility_name": "南京三民站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0518361,
+            "lng": 121.5512481,
+            "exit_no": "出口1",
+            "station": "台北小巨蛋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5512481,
+                    25.0518361
+                ]
+            },
+            "facility_name": "台北小巨蛋站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.051509,
+            "lng": 121.550975,
+            "exit_no": "出口2",
+            "station": "台北小巨蛋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.550975,
+                    25.051509
+                ]
+            },
+            "facility_name": "台北小巨蛋站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0513486,
+            "lng": 121.5526734,
+            "exit_no": "出口3",
+            "station": "台北小巨蛋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5526734,
+                    25.0513486
+                ]
+            },
+            "facility_name": "台北小巨蛋站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0526811,
+            "lng": 121.5421437,
+            "exit_no": "出口1",
+            "station": "南京復興",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5421437,
+                    25.0526811
+                ]
+            },
+            "facility_name": "南京復興站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0515576,
+            "lng": 121.5418946,
+            "exit_no": "出口2",
+            "station": "南京復興",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5418946,
+                    25.0515576
+                ]
+            },
+            "facility_name": "南京復興站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.050345,
+            "lng": 121.592713,
+            "exit_no": "出口1",
+            "station": "昆陽",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.592713,
+                    25.050345
+                ]
+            },
+            "facility_name": "昆陽站無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.052041,
+            "lng": 121.544135,
+            "exit_no": "出口7",
+            "station": "南京復興",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.544135,
+                    25.052041
+                ]
+            },
+            "facility_name": "南京復興站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0518519,
+            "lng": 121.5323788,
+            "exit_no": "出口1",
+            "station": "松江南京",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5323788,
+                    25.0518519
+                ]
+            },
+            "facility_name": "松江南京站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0513334,
+            "lng": 121.5327226,
+            "exit_no": "出口2",
+            "station": "松江南京",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5327226,
+                    25.0513334
+                ]
+            },
+            "facility_name": "松江南京站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0526185,
+            "lng": 121.5327227,
+            "exit_no": "出口8",
+            "station": "松江南京",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5327227,
+                    25.0526185
+                ]
+            },
+            "facility_name": "松江南京站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0493473,
+            "lng": 121.5106401,
+            "exit_no": "出口2",
+            "station": "北門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5106401,
+                    25.0493473
+                ]
+            },
+            "facility_name": "北門站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0500699,
+            "lng": 121.51005,
+            "exit_no": "出口3",
+            "station": "北門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.51005,
+                    25.0500699
+                ]
+            },
+            "facility_name": "北門站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0218708,
+            "lng": 121.4116173,
+            "exit_no": "出口1",
+            "station": "迴龍",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4116173,
+                    25.0218708
+                ]
+            },
+            "facility_name": "迴龍站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0287674,
+            "lng": 121.422717,
+            "exit_no": "出口2",
+            "station": "丹鳳",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.422717,
+                    25.0287674
+                ]
+            },
+            "facility_name": "丹鳳站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0328615,
+            "lng": 121.4352496,
+            "exit_no": "出口1",
+            "station": "輔大",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4352496,
+                    25.0328615
+                ]
+            },
+            "facility_name": "輔大站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0325085,
+            "lng": 121.4353281,
+            "exit_no": "出口2",
+            "station": "輔大",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4353281,
+                    25.0325085
+                ]
+            },
+            "facility_name": "輔大站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0363,
+            "lng": 121.4521579,
+            "exit_no": "出口1",
+            "station": "新莊",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4521579,
+                    25.0363
+                ]
+            },
+            "facility_name": "新莊站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0361214,
+            "lng": 121.4523745,
+            "exit_no": "出口2",
+            "station": "新莊",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4523745,
+                    25.0361214
+                ]
+            },
+            "facility_name": "新莊站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0403109,
+            "lng": 121.4605348,
+            "exit_no": "出口1",
+            "station": "頭前庄",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4605348,
+                    25.0403109
+                ]
+            },
+            "facility_name": "頭前庄站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.04654,
+            "lng": 121.47142,
+            "exit_no": "出口1",
+            "station": "先嗇宮",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.47142,
+                    25.04654
+                ]
+            },
+            "facility_name": "先嗇宮站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.055335,
+            "lng": 121.4831091,
+            "exit_no": "出口1",
+            "station": "三重",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4831091,
+                    25.055335
+                ]
+            },
+            "facility_name": "三重站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0594305,
+            "lng": 121.4911421,
+            "exit_no": "出口2",
+            "station": "菜寮",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4911421,
+                    25.0594305
+                ]
+            },
+            "facility_name": "菜寮站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.06316,
+            "lng": 121.50085,
+            "exit_no": "單一出口",
+            "station": "台北橋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.50085,
+                    25.06316
+                ]
+            },
+            "facility_name": "台北橋站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.063094,
+            "lng": 121.512606,
+            "exit_no": "出口1",
+            "station": "大橋頭",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.512606,
+                    25.063094
+                ]
+            },
+            "facility_name": "大橋頭站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0625317,
+            "lng": 121.5263807,
+            "exit_no": "出口2",
+            "station": "中山國小",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5263807,
+                    25.0625317
+                ]
+            },
+            "facility_name": "中山國小站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0628102,
+            "lng": 121.5267116,
+            "exit_no": "出口4",
+            "station": "中山國小",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5267116,
+                    25.0628102
+                ]
+            },
+            "facility_name": "中山國小站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0588258,
+            "lng": 121.5334778,
+            "exit_no": "出口2",
+            "station": "行天宮",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5334778,
+                    25.0588258
+                ]
+            },
+            "facility_name": "行天宮站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.012817,
+            "lng": 121.5153534,
+            "exit_no": "出口1",
+            "station": "頂溪",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5153534,
+                    25.012817
+                ]
+            },
+            "facility_name": "頂溪站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0024203,
+            "lng": 121.5109026,
+            "exit_no": "單一出口",
+            "station": "永安市場",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5109026,
+                    25.0024203
+                ]
+            },
+            "facility_name": "永安市場站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.993721,
+            "lng": 121.50458,
+            "exit_no": "單一出口",
+            "station": "景安",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.50458,
+                    24.993721
+                ]
+            },
+            "facility_name": "景安站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 24.989606,
+            "lng": 121.509571,
+            "exit_no": "出口3",
+            "station": "南勢角",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.509571,
+                    24.989606
+                ]
+            },
+            "facility_name": "南勢角站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.09116235,
+            "lng": 121.4650476,
+            "exit_no": "出口2",
+            "station": "蘆洲",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4650476,
+                    25.09116235
+                ]
+            },
+            "facility_name": "蘆洲站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0855193,
+            "lng": 121.4731016,
+            "exit_no": "出口1",
+            "station": "三民高中",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4731016,
+                    25.0855193
+                ]
+            },
+            "facility_name": "三民高中站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.080535,
+            "lng": 121.48031,
+            "exit_no": "出口2",
+            "station": "徐匯中學",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.48031,
+                    25.080535
+                ]
+            },
+            "facility_name": "徐匯中學站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.07658,
+            "lng": 121.486454,
+            "exit_no": "出口1",
+            "station": "三和國中",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.486454,
+                    25.07658
+                ]
+            },
+            "facility_name": "三和國中站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.070477,
+            "lng": 121.496901,
+            "exit_no": "單一出口",
+            "station": "三重國小",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.496901,
+                    25.070477
+                ]
+            },
+            "facility_name": "三重國小站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.95947933,
+            "lng": 121.4184927,
+            "exit_no": "出口1",
+            "station": "頂埔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4184927,
+                    24.95947933
+                ]
+            },
+            "facility_name": "頂埔站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.95983129,
+            "lng": 121.4198032,
+            "exit_no": "出口3",
+            "station": "頂埔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4198032,
+                    24.95983129
+                ]
+            },
+            "facility_name": "頂埔站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.96005988,
+            "lng": 121.4197026,
+            "exit_no": "出口4",
+            "station": "頂埔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4197026,
+                    24.96005988
+                ]
+            },
+            "facility_name": "頂埔站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9665891,
+            "lng": 121.4355601,
+            "exit_no": "出口1",
+            "station": "永寧",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4355601,
+                    24.9665891
+                ]
+            },
+            "facility_name": "永寧站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9661426,
+            "lng": 121.4357508,
+            "exit_no": "出口2",
+            "station": "永寧",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4357508,
+                    24.9661426
+                ]
+            },
+            "facility_name": "永寧站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.973459,
+            "lng": 121.4441438,
+            "exit_no": "出口1",
+            "station": "土城",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4441438,
+                    24.973459
+                ]
+            },
+            "facility_name": "土城站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9853454,
+            "lng": 121.4489386,
+            "exit_no": "出口2",
+            "station": "海山",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4489386,
+                    24.9853454
+                ]
+            },
+            "facility_name": "海山站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.998871,
+            "lng": 121.45288,
+            "exit_no": "出口3",
+            "station": "亞東醫院",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.45288,
+                    24.998871
+                ]
+            },
+            "facility_name": "亞東醫院站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0084545,
+            "lng": 121.4589952,
+            "exit_no": "出口1",
+            "station": "府中",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4589952,
+                    25.0084545
+                ]
+            },
+            "facility_name": "府中站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0140332,
+            "lng": 121.4625897,
+            "exit_no": "出口3",
+            "station": "板橋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4625897,
+                    25.0140332
+                ]
+            },
+            "facility_name": "板橋站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0149489,
+            "lng": 121.4650503,
+            "exit_no": "出口4",
+            "station": "板橋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4650503,
+                    25.0149489
+                ]
+            },
+            "facility_name": "板橋站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0155827,
+            "lng": 121.4642091,
+            "exit_no": "出口5",
+            "station": "板橋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4642091,
+                    25.0155827
+                ]
+            },
+            "facility_name": "板橋站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.02371,
+            "lng": 121.46871,
+            "exit_no": "出口4",
+            "station": "新埔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.46871,
+                    25.02371
+                ]
+            },
+            "facility_name": "新埔站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.02407,
+            "lng": 121.46817,
+            "exit_no": "出口5",
+            "station": "新埔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.46817,
+                    25.02407
+                ]
+            },
+            "facility_name": "新埔站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0297307,
+            "lng": 121.4723419,
+            "exit_no": "出口3",
+            "station": "江子翠",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4723419,
+                    25.0297307
+                ]
+            },
+            "facility_name": "江子翠站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0355147,
+            "lng": 121.4994583,
+            "exit_no": "出口1",
+            "station": "龍山寺",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4994583,
+                    25.0355147
+                ]
+            },
+            "facility_name": "龍山寺站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0423094,
+            "lng": 121.5088843,
+            "exit_no": "出口4",
+            "station": "西門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5088843,
+                    25.0423094
+                ]
+            },
+            "facility_name": "西門站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0425366,
+            "lng": 121.5078087,
+            "exit_no": "出口6",
+            "station": "西門",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5078087,
+                    25.0425366
+                ]
+            },
+            "facility_name": "西門站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0446787,
+            "lng": 121.5235442,
+            "exit_no": "出口3",
+            "station": "善導寺",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5235442,
+                    25.0446787
+                ]
+            },
+            "facility_name": "善導寺站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0422696,
+            "lng": 121.5320425,
+            "exit_no": "出口2",
+            "station": "忠孝新生",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5320425,
+                    25.0422696
+                ]
+            },
+            "facility_name": "忠孝新生站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0420023,
+            "lng": 121.5338479,
+            "exit_no": "出口3",
+            "station": "忠孝新生",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5338479,
+                    25.0420023
+                ]
+            },
+            "facility_name": "忠孝新生站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.041232,
+            "lng": 121.543545,
+            "exit_no": "出口2",
+            "station": "忠孝復興",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.543545,
+                    25.041232
+                ]
+            },
+            "facility_name": "忠孝復興站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.041619,
+            "lng": 121.551269,
+            "exit_no": "出口2",
+            "station": "忠孝敦化",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.551269,
+                    25.041619
+                ]
+            },
+            "facility_name": "忠孝敦化站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.04116,
+            "lng": 121.5582594,
+            "exit_no": "出口4",
+            "station": "國父紀念館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5582594,
+                    25.04116
+                ]
+            },
+            "facility_name": "國父紀念館站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.041674,
+            "lng": 121.558214,
+            "exit_no": "出口5",
+            "station": "國父紀念館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.558214,
+                    25.041674
+                ]
+            },
+            "facility_name": "國父紀念館站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.040936,
+            "lng": 121.565245,
+            "exit_no": "出口2",
+            "station": "市政府",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.565245,
+                    25.040936
+                ]
+            },
+            "facility_name": "市政府站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.040912,
+            "lng": 121.576757,
+            "exit_no": "出口5",
+            "station": "永春",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.576757,
+                    25.040912
+                ]
+            },
+            "facility_name": "永春站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0453,
+            "lng": 121.5829,
+            "exit_no": "出口3",
+            "station": "後山埤",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5829,
+                    25.0453
+                ]
+            },
+            "facility_name": "後山埤站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0505729,
+            "lng": 121.5938057,
+            "exit_no": "出口4",
+            "station": "昆陽",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5938057,
+                    25.0505729
+                ]
+            },
+            "facility_name": "昆陽站無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0520767,
+            "lng": 121.6078538,
+            "exit_no": "出口2",
+            "station": "南港",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.6078538,
+                    25.0520767
+                ]
+            },
+            "facility_name": "南港站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.05578,
+            "lng": 121.617352,
+            "exit_no": "出口1",
+            "station": "南港展覽館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.617352,
+                    25.05578
+                ]
+            },
+            "facility_name": "南港展覽館站出口電梯1",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.05525,
+            "lng": 121.617436,
+            "exit_no": "出口2A",
+            "station": "南港展覽館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.617436,
+                    25.05525
+                ]
+            },
+            "facility_name": "南港展覽館站出口電梯2",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0547923,
+            "lng": 121.6172314,
+            "exit_no": "出口5",
+            "station": "南港展覽館",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.6172314,
+                    25.0547923
+                ]
+            },
+            "facility_name": "南港展覽館站出口電梯3",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.983526,
+            "lng": 121.527244,
+            "exit_no": "單一出口",
+            "station": "十四張",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.527244,
+                    24.983526
+                ]
+            },
+            "facility_name": "十四張站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.9904982,
+            "lng": 121.5250094,
+            "exit_no": "出口2",
+            "station": "秀朗橋",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.5250094,
+                    24.9904982
+                ]
+            },
+            "facility_name": "秀朗橋站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 24.991992,
+            "lng": 121.516039,
+            "exit_no": "單一出口",
+            "station": "景平",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.516039,
+                    24.991992
+                ]
+            },
+            "facility_name": "景平站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.002355,
+            "lng": 121.4965351,
+            "exit_no": "單一出口",
+            "station": "中和",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4965351,
+                    25.002355
+                ]
+            },
+            "facility_name": "中和站出口無障礙坡道",
+            "facility_type": "ramp"
+        },
+        {
+            "lat": 25.0047922,
+            "lng": 121.4903747,
+            "exit_no": "單一出口",
+            "station": "橋和",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4903747,
+                    25.0047922
+                ]
+            },
+            "facility_name": "橋和站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0082755,
+            "lng": 121.4846089,
+            "exit_no": "單一出口",
+            "station": "中原",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4846089,
+                    25.0082755
+                ]
+            },
+            "facility_name": "中原站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0144302,
+            "lng": 121.4724853,
+            "exit_no": "單一出口",
+            "station": "板新",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4724853,
+                    25.0144302
+                ]
+            },
+            "facility_name": "板新站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0261323,
+            "lng": 121.4668182,
+            "exit_no": "單一出口",
+            "station": "新埔民生",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4668182,
+                    25.0261323
+                ]
+            },
+            "facility_name": "新埔民生站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.049854,
+            "lng": 121.460188,
+            "exit_no": "出口1",
+            "station": "幸褔",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.460188,
+                    25.049854
+                ]
+            },
+            "facility_name": "幸褔站出口電梯",
+            "facility_type": "elevator"
+        },
+        {
+            "lat": 25.0611067,
+            "lng": 121.4597405,
+            "exit_no": "單一出口",
+            "station": "新北產業園區",
+            "data_time": "2025-05-28T23:46:37+00:00",
+            "wkb_geometry": {
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "EPSG:4326"
+                    }
+                },
+                "type": "Point",
+                "coordinates": [
+                    121.4597405,
+                    25.0611067
+                ]
+            },
+            "facility_name": "新北產業園區站出口電梯",
+            "facility_type": "elevator"
+        }
+    ],
+    "mrtp_a11y_alert_history": [
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        },
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        },
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        },
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        },
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        },
+        {
+            "line": "淡水信義線",
+            "status": "closed",
+            "station": "奇岩",
+            "data_time": "2026-04-20T13:42:47+00:00",
+            "description": "捷運淡水信義線【奇岩站】月台電梯已修復完成，歡迎搭乘，維修期間如造成您的不便，敬請見諒。",
+            "publish_time": "2026-04-20T13:31:00+00:00"
+        }
+    ]
+}
