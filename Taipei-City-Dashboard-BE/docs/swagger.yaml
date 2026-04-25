@@ -1,0 +1,843 @@
+basePath: /api/v1
+definitions:
+  models.Dashboard:
+    type: object
+  models.Incident:
+    properties:
+      description:
+        type: string
+      distance:
+        type: number
+      id:
+        type: integer
+      inctype:
+        type: string
+      latitude:
+        type: number
+      longitude:
+        type: number
+      place:
+        type: string
+      reportTime:
+        type: string
+      status:
+        type: string
+    type: object
+  models.Issue:
+    properties:
+      context:
+        type: string
+      created_at:
+        type: string
+      decision_desc:
+        type: string
+      description:
+        type: string
+      id:
+        type: integer
+      status:
+        type: string
+      title:
+        type: string
+      updated_at:
+        type: string
+      updated_by:
+        type: string
+      user_id:
+        type: string
+      user_name:
+        type: string
+    type: object
+host: localhost:8088
+info:
+  contact: {}
+  description: Backend API for Taipei City Dashboard.
+  title: Taipei City Dashboard API
+  version: "1.0"
+paths:
+  /auth/login:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Basic base64(email:password)
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Login with email and password
+      tags:
+      - auth
+  /chatlog:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      parameters:
+      - description: Session ID
+        in: formData
+        name: session
+        required: true
+        type: string
+      - description: User question
+        in: formData
+        name: question
+        required: true
+        type: string
+      - description: AI answer
+        in: formData
+        name: answer
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Create a chat log entry
+      tags:
+      - chatlog
+  /chatlog/session:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all chat log sessions
+      tags:
+      - chatlog
+  /chatlog/session/{session}:
+    get:
+      parameters:
+      - description: Session ID
+        in: path
+        name: session
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get chat log by session ID
+      tags:
+      - chatlog
+  /component:
+    get:
+      parameters:
+      - description: City (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      - description: Page size
+        in: query
+        name: pagesize
+        type: integer
+      - description: Page number
+        in: query
+        name: pagenum
+        type: integer
+      - description: Search by name
+        in: query
+        name: searchbyname
+        type: string
+      - description: Search by index
+        in: query
+        name: searchbyindex
+        type: string
+      - description: Sort column
+        in: query
+        name: sort
+        type: string
+      - description: asc or desc
+        in: query
+        name: order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all components
+      tags:
+      - component
+  /component/{id}:
+    delete:
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Delete component
+      tags:
+      - component
+    get:
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: City (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get component by ID
+      tags:
+      - component
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: City (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Update component config
+      tags:
+      - component
+  /component/{id}/all:
+    get:
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get component by ID (all cities)
+      tags:
+      - component
+  /component/{id}/chart:
+    get:
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: City (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      - description: Start time (RFC3339)
+        in: query
+        name: time_from
+        type: string
+      - description: End time (RFC3339)
+        in: query
+        name: time_to
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get component chart data
+      tags:
+      - component
+  /component/{id}/history:
+    get:
+      parameters:
+      - description: Component ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: City (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      - description: Start time (RFC3339)
+        in: query
+        name: time_from
+        required: true
+        type: string
+      - description: End time (RFC3339)
+        in: query
+        name: time_to
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get component history data
+      tags:
+      - component
+  /contributor:
+    get:
+      parameters:
+      - description: Page size
+        in: query
+        name: pagesize
+        type: integer
+      - description: Page number
+        in: query
+        name: pagenum
+        type: integer
+      - description: Sort column
+        in: query
+        name: sort
+        type: string
+      - description: asc or desc
+        in: query
+        name: order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get all contributors
+      tags:
+      - contributor
+  /dashboard:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all dashboards
+      tags:
+      - dashboard
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Dashboard
+        in: body
+        name: dashboard
+        required: true
+        schema:
+          $ref: '#/definitions/models.Dashboard'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Create personal dashboard
+      tags:
+      - dashboard
+  /dashboard/{index}:
+    delete:
+      parameters:
+      - description: Dashboard index
+        in: path
+        name: index
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Delete dashboard
+      tags:
+      - dashboard
+    get:
+      parameters:
+      - description: Dashboard index
+        in: path
+        name: index
+        required: true
+        type: string
+      - description: City name (taipei, metrotaipei)
+        in: query
+        name: city
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get dashboard by index
+      tags:
+      - dashboard
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Dashboard index
+        in: path
+        name: index
+        required: true
+        type: string
+      - description: Dashboard
+        in: body
+        name: dashboard
+        required: true
+        schema:
+          $ref: '#/definitions/models.Dashboard'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Update dashboard
+      tags:
+      - dashboard
+  /incident:
+    get:
+      parameters:
+      - description: Page size
+        in: query
+        name: pagesize
+        type: integer
+      - description: Page number
+        in: query
+        name: pagenum
+        type: integer
+      - description: Filter by status
+        in: query
+        name: filterbystatus
+        type: string
+      - description: Sort column
+        in: query
+        name: sort
+        type: string
+      - description: asc or desc
+        in: query
+        name: order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all incidents (admin only)
+      tags:
+      - incident
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Incident
+        in: body
+        name: incident
+        required: true
+        schema:
+          $ref: '#/definitions/models.Incident'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Create an incident (admin only)
+      tags:
+      - incident
+  /issue:
+    get:
+      parameters:
+      - description: Page size
+        in: query
+        name: pagesize
+        type: integer
+      - description: Page number
+        in: query
+        name: pagenum
+        type: integer
+      - description: Filter by status
+        in: query
+        name: filterbystatus
+        type: string
+      - description: Sort column
+        in: query
+        name: sort
+        type: string
+      - description: asc or desc
+        in: query
+        name: order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all issues (admin only)
+      tags:
+      - issue
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Issue
+        in: body
+        name: issue
+        required: true
+        schema:
+          $ref: '#/definitions/models.Issue'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Create an issue
+      tags:
+      - issue
+  /user:
+    get:
+      parameters:
+      - description: Page size
+        in: query
+        name: pagesize
+        type: integer
+      - description: Page number
+        in: query
+        name: pagenum
+        type: integer
+      - description: Sort column
+        in: query
+        name: sort
+        type: string
+      - description: asc or desc
+        in: query
+        name: order
+        type: string
+      - description: Search by ID
+        in: query
+        name: searchbyid
+        type: string
+      - description: Search by name
+        in: query
+        name: searchbyname
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get all users (admin only)
+      tags:
+      - user
+  /user/me:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Get current user info
+      tags:
+      - user
+    patch:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Update current user info
+      tags:
+      - user
+  /vector/component:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      parameters:
+      - description: Search query text
+        in: formData
+        name: query
+        required: true
+        type: string
+      - description: Max results (default 10, max 30)
+        in: formData
+        name: limit
+        type: integer
+      - description: Score threshold (default 0.78)
+        in: formData
+        name: score
+        type: number
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Semantic search for components
+      tags:
+      - vector
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
