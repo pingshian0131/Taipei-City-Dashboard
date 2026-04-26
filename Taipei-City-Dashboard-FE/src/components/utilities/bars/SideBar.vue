@@ -157,7 +157,7 @@ onMounted(() => {
       {{ isExpanded ? `示範儀表板` : `示範` }}
     </h1>
     <RouterLink
-      :to="$route.path.startsWith('/mrt-a11y') && !$route.path.startsWith('/mrt-a11y-v2') ? $route.path : '/mrt-a11y'"
+      :to="$route.path.startsWith('/mrt-a11y') && !$route.path.startsWith('/mrt-a11y-v2') && !$route.path.startsWith('/mrt-a11y-v3') ? $route.path : '/mrt-a11y'"
       class="sidebar-demo-link"
       active-class="sidebar-demo-link-active"
     >
@@ -174,6 +174,16 @@ onMounted(() => {
       <span :title="!isExpanded ? '雙城暢行 V2 ｜ 捷運無障礙' : ''">accessible_forward</span>
       <h3 v-if="isExpanded">
         雙城暢行 V2 ｜ 捷運無障礙
+      </h3>
+    </RouterLink>
+    <RouterLink
+      :to="$route.path.startsWith('/mrt-a11y-v3') ? $route.path : '/mrt-a11y-v3'"
+      class="sidebar-demo-link"
+      active-class="sidebar-demo-link-active"
+    >
+      <span :title="!isExpanded ? '雙城暢行 V3 ｜ 捷運無障礙' : ''">elevator</span>
+      <h3 v-if="isExpanded">
+        雙城暢行 V3 ｜ 捷運無障礙
       </h3>
     </RouterLink>
     <h1 @click="toggleCollapse(contentStore.cityManager.activeCities)">

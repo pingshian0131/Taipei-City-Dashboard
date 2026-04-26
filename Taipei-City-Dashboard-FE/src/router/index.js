@@ -22,6 +22,7 @@ import EmbedView from "../views/EmbedView.vue";
 import AccessibilityRouteView from "../views/AccessibilityRouteView.vue";
 import MrtAccessibilityView from "../views/MrtAccessibilityView.vue";
 import MrtAccessibilityV2View from "../views/MrtAccessibilityV2View.vue";
+import MrtAccessibilityV3View from "../views/MrtAccessibilityV3View.vue";
 
 const routes = [
 	{
@@ -82,6 +83,18 @@ const routes = [
 		path: "/mrt-a11y-v2/mapview",
 		name: "mrt-a11y-v2-mapview",
 		component: MrtAccessibilityV2View,
+		meta: { layout: "dashboard" },
+	},
+	{
+		path: "/mrt-a11y-v3",
+		name: "mrt-a11y-v3",
+		component: MrtAccessibilityV3View,
+		meta: { layout: "dashboard" },
+	},
+	{
+		path: "/mrt-a11y-v3/mapview",
+		name: "mrt-a11y-v3-mapview",
+		component: MrtAccessibilityV3View,
 		meta: { layout: "dashboard" },
 	},
 	{

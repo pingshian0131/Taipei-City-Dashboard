@@ -34,6 +34,13 @@ const tabContext = computed(() => {
 			mapviewPath: '/accessibility-route/mapview',
 		};
 	}
+	// 注意：長 prefix 必須先檢查（v3 / v2 都 startsWith '/mrt-a11y'，順序顛倒會被吃掉）
+	if (route.path.startsWith('/mrt-a11y-v3')) {
+		return {
+			dashboardPath: '/mrt-a11y-v3',
+			mapviewPath: '/mrt-a11y-v3/mapview',
+		};
+	}
 	if (route.path.startsWith('/mrt-a11y-v2')) {
 		return {
 			dashboardPath: '/mrt-a11y-v2',
