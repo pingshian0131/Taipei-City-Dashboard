@@ -36,11 +36,11 @@ const CITY_LABEL = {
 };
 
 // 各組件分配給臺北／新北的固定圖表色：3 個圖層在地圖上同時打開時要能分辨，
-// 故每個組件用不同色相（餐廳=綠/藍、綠色商店=粉/青、實物銀行=黃/紫）。
+// 故每組件用不同 categorical 色對（取自 globalStyles.css 的 --chart-cat-*）。
 const CITY_COLOR = {
-	eco_diet_restaurants_points: { taipei: "#5fcf80", newtaipei: "#5a9cf8" },
-	eco_diet_green_stores_points: { taipei: "#ec7cb1", newtaipei: "#67baca" },
-	eco_diet_food_banks_points: { taipei: "#f6c344", newtaipei: "#a37cf6" },
+	eco_diet_restaurants_points: { taipei: "#5a9cf8", newtaipei: "#7fb685" }, // cat-1 / cat-2
+	eco_diet_green_stores_points: { taipei: "#d4a35c", newtaipei: "#c97f8a" }, // cat-3 / cat-4
+	eco_diet_food_banks_points: { taipei: "#9b8ec4", newtaipei: "#6fb1ac" }, // cat-5 / cat-6
 };
 
 // ── 地圖三層 layer ID ──────────────────────────────────────────────────────
@@ -88,7 +88,7 @@ const c1aComponent = ref({
 	update_freq_unit: null,
 	chart_config: {
 		types: ["DonutChart", "BarChart"],
-		color: ["#5fcf80", "#5a9cf8"],
+		color: ["#5a9cf8", "#7fb685"],
 		unit: "家",
 	},
 	chart_data: null,
@@ -112,7 +112,7 @@ const c1bComponent = ref({
 	update_freq_unit: null,
 	chart_config: {
 		types: ["DistrictChart", "BarChart"],
-		color: ["#5fcf80", "#5a9cf8"],
+		color: ["#5a9cf8", "#7fb685"],
 		unit: "家",
 	},
 	chart_data: null,
@@ -120,30 +120,6 @@ const c1bComponent = ref({
 	short_desc: "雙北各行政區環保餐廳家數，依家數降冪",
 	long_desc: "依行政區聚合雙北環保餐廳家數，呈現雙北環保飲食店家分布密度，協助使用者快速掌握哪些行政區供給較密集。",
 	use_case: "市民查詢居住地附近環保餐廳供給度、政府政策評估環保餐廳推廣覆蓋率、店家規劃新分店時參考既有環保餐廳密度。",
-	links: SHARED_LINKS.restaurant,
-	contributors: SHARED_CONTRIBUTORS,
-});
-
-const c2Component = ref({
-	id: "eco-diet-c2",
-	index: "eco_diet_restaurants_count_city",
-	city: "metrotaipei",
-	name: "C2｜雙城環保餐廳家數",
-	source: "雙北環保局",
-	time_from: "current",
-	time_to: null,
-	update_freq: null,
-	update_freq_unit: null,
-	chart_config: {
-		types: ["TextUnitChart"],
-		color: ["#888787", "#5fcf80", "#888787"],
-		unit: "家",
-	},
-	chart_data: null,
-	map_config: [null],
-	short_desc: "雙北環保餐廳總家數的單一數字卡呈現",
-	long_desc: "顯示臺北市與新北市目前列管的環保餐廳總家數，反映雙北兩市對環保飲食店家認證的覆蓋程度差異。",
-	use_case: "雙城環保政策推廣成效對比、研究分析雙北綠色飲食市場規模、簡報快速展示雙城資料量級。",
 	links: SHARED_LINKS.restaurant,
 	contributors: SHARED_CONTRIBUTORS,
 });
@@ -160,7 +136,7 @@ const c4Component = ref({
 	update_freq_unit: null,
 	chart_config: {
 		types: ["DonutChart", "BarChart"],
-		color: ["#ec7cb1", "#67baca"],
+		color: ["#d4a35c", "#c97f8a"],
 		unit: "家",
 	},
 	chart_data: null,
@@ -185,8 +161,8 @@ const c5Component = ref({
 	chart_config: {
 		types: ["TimelineSeparateChart", "BubbleChart"],
 		color: [
-			"#ed5a5a", "#f6c344", "#5fcf80", "#5a9cf8",
-			"#a37cf6", "#ec7cb1", "#888787", "#67baca",
+			"#5a9cf8", "#7fb685", "#d4a35c", "#c97f8a",
+			"#9b8ec4", "#6fb1ac", "#2e5b8e", "#1f3a5f",
 		],
 		unit: "公噸",
 		// BubbleChart 用：x 走 datetime（與 TimelineSeparate 共用同一份 x），bubble 半徑由 z 決定
@@ -214,7 +190,7 @@ const c7aComponent = ref({
 	update_freq_unit: null,
 	chart_config: {
 		types: ["DonutChart", "BarChart"],
-		color: ["#f6c344", "#a37cf6"],
+		color: ["#9b8ec4", "#6fb1ac"],
 		unit: "處",
 	},
 	chart_data: null,
@@ -230,7 +206,6 @@ const c7aComponent = ref({
 const allComponents = computed(() => [
 	c1aComponent.value,
 	c1bComponent.value,
-	c2Component.value,
 	c4Component.value,
 	c5Component.value,
 	c7aComponent.value,
@@ -246,7 +221,6 @@ const noMapComponents = computed(() =>
 const activeCityMap = reactive({
 	eco_diet_restaurants_points: "metrotaipei",
 	eco_diet_restaurants_density: "metrotaipei",
-	eco_diet_restaurants_count_city: "metrotaipei",
 	eco_diet_green_stores_points: "metrotaipei",
 	eco_diet_waste_yearly: "metrotaipei",
 	eco_diet_food_banks_points: "metrotaipei",
@@ -262,7 +236,6 @@ const toggleOn = ref({
 const rawData = ref({
 	restaurantPoints: [],
 	restaurantDensity: [],
-	restaurantCountByCity: [],
 	greenStorePoints: [],
 	wasteCategories: [],
 	wasteSeries: [],
@@ -314,23 +287,6 @@ function recomputeC1b() {
 	c1bComponent.value.chart_data = filtered.length
 		? [{ data: filtered.map(({ x, y }) => ({ x, y })) }]
 		: [{ data: [] }];
-}
-
-function recomputeC2() {
-	const city = activeCityMap.eco_diet_restaurants_count_city;
-	const rows = rawData.value.restaurantCountByCity;
-	const tpeRow = rows.find((r) => r.x === "臺北市");
-	const ntpRow = rows.find((r) => r.x === "新北市");
-	const tpe = Math.round(Number(tpeRow?.y ?? 0));
-	const ntp = Math.round(Number(ntpRow?.y ?? 0));
-	const cards = [];
-	if (city === "metrotaipei" || city === "taipei") {
-		cards.push({ name: "臺北市", data: [tpe], icon: "家" });
-	}
-	if (city === "metrotaipei" || city === "newtaipei") {
-		cards.push({ name: "新北市", data: [ntp], icon: "家" });
-	}
-	c2Component.value.chart_data = cards;
 }
 
 function recomputeC4() {
@@ -395,12 +351,11 @@ async function fetchAll() {
 	const calls = [
 		ecoApi("/api/v1/eco_diet/restaurant/points"),
 		ecoApi("/api/v1/eco_diet/restaurant/density-by-district"),
-		ecoApi("/api/v1/eco_diet/restaurant/count-by-city"),
 		ecoApi("/api/v1/eco_diet/green_store/points"),
 		ecoApi("/api/v1/eco_diet/waste/yearly"),
 		ecoApi("/api/v1/eco_diet/food_bank/points"),
 	];
-	const [r1a, r1b, r2, r4, r5, r7a] = await Promise.allSettled(calls);
+	const [r1a, r1b, r4, r5, r7a] = await Promise.allSettled(calls);
 
 	// C1a: 點位 → 快取後依 activeCity 算 MapLegend
 	if (r1a.status === "fulfilled") {
@@ -432,15 +387,6 @@ async function fetchAll() {
 	} else {
 		console.error("C1b fetch failed", r1b.reason);
 		c1bComponent.value.chart_data = null;
-	}
-
-	// C2: 雙城家數，雙北自行加總一張卡
-	if (r2.status === "fulfilled") {
-		rawData.value.restaurantCountByCity = r2.value.data?.data?.[0]?.data || [];
-		recomputeC2();
-	} else {
-		console.error("C2 fetch failed", r2.reason);
-		c2Component.value.chart_data = null;
 	}
 
 	// C4: 綠色商店點位，依 activeCity 算 MapLegend（依城市分組，非店家類型）
@@ -522,8 +468,8 @@ const PAINT_BY_KEY = {
 		"circle-color": [
 			"match",
 			["get", "city"],
-			"臺北市", "#5fcf80",
-			"新北市", "#5a9cf8",
+			"臺北市", "#5a9cf8",
+			"新北市", "#7fb685",
 			"#888888",
 		],
 		"circle-stroke-color": "#ffffff",
@@ -535,8 +481,8 @@ const PAINT_BY_KEY = {
 		"circle-color": [
 			"match",
 			["get", "city"],
-			"臺北市", "#ec7cb1",
-			"新北市", "#67baca",
+			"臺北市", "#d4a35c",
+			"新北市", "#c97f8a",
 			"#888888",
 		],
 		"circle-stroke-color": "#ffffff",
@@ -548,8 +494,8 @@ const PAINT_BY_KEY = {
 		"circle-color": [
 			"match",
 			["get", "city"],
-			"臺北市", "#f6c344",
-			"新北市", "#a37cf6",
+			"臺北市", "#9b8ec4",
+			"新北市", "#6fb1ac",
 			"#888888",
 		],
 		"circle-stroke-color": "#ffffff",
@@ -953,13 +899,13 @@ function buildPopupHtml(key, props) {
 		lines.push(`<p style="color:#fff;font-size:0.8rem;margin-bottom:2px;">☎ ${escapeHtml(props.tel)}</p>`);
 	}
 	if (key === "restaurant" && props.env_actions) {
-		lines.push(`<p style="color:#5fcf80;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.env_actions)}</p>`);
+		lines.push(`<p style="color:#5a9cf8;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.env_actions)}</p>`);
 	}
 	if (key === "greenStore" && props.store_type) {
-		lines.push(`<p style="color:#67baca;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.store_type)}</p>`);
+		lines.push(`<p style="color:#d4a35c;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.store_type)}</p>`);
 	}
 	if (key === "foodBank" && props.org_type) {
-		lines.push(`<p style="color:#a37cf6;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.org_type)}</p>`);
+		lines.push(`<p style="color:#9b8ec4;font-size:0.75rem;margin-top:4px;">${escapeHtml(props.org_type)}</p>`);
 	}
 	return `<div style="padding:10px 12px;font-family:'微軟正黑體','Microsoft JhengHei',sans-serif;">${lines.join("")}</div>`;
 }
@@ -1097,9 +1043,6 @@ function handleChangeCity(component, cityValue) {
 		break;
 	case "eco_diet_restaurants_density":
 		recomputeC1b();
-		break;
-	case "eco_diet_restaurants_count_city":
-		recomputeC2();
 		break;
 	case "eco_diet_green_stores_points":
 		recomputeC4();

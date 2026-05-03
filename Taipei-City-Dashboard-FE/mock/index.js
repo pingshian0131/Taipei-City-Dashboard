@@ -16,7 +16,6 @@ const routes = {
 	// 永續環境 — 綠色飲食行為流程儀表板（contract: 08_eco_diet_openapi.yaml）
 	"/api/v1/eco_diet/restaurant/points": "eco-diet/restaurant-points.json",
 	"/api/v1/eco_diet/restaurant/density-by-district": "eco-diet/restaurant-density-by-district.json",
-	"/api/v1/eco_diet/restaurant/count-by-city": "eco-diet/restaurant-count-by-city.json",
 	"/api/v1/eco_diet/green_store/points": "eco-diet/green-store-points.json",
 	"/api/v1/eco_diet/waste/yearly": "eco-diet/waste-yearly.json",
 	"/api/v1/eco_diet/food_bank/points": "eco-diet/food-bank-points.json",

@@ -24,6 +24,20 @@
 	--color-metrotaipei-background: #342b17;
 	--color-newtaipei: #11ac78;
 	--color-newtaipei-background: #173424;
+
+	/* Chart palette — 中低飽和度 */
+	--chart-seq-1: #1f3a5f;
+	--chart-seq-2: #2e5b8e;
+	--chart-seq-3: #5a9cf8;
+	--chart-seq-4: #8fbcfa;
+	--chart-seq-5: #c8def7;
+
+	--chart-cat-1: #5a9cf8;
+	--chart-cat-2: #7fb685;
+	--chart-cat-3: #d4a35c;
+	--chart-cat-4: #c97f8a;
+	--chart-cat-5: #9b8ec4;
+	--chart-cat-6: #6fb1ac;
 }
 
 .apexcharts-tooltip {
