@@ -3,6 +3,10 @@
 Taipei-City-Dashboard-FE/dist
 Taipei-City-Dashboard-BE/TaipeiCityDashboardBE
 
+# DB dump 工具：含遠端連線資訊與資料庫備份，不進 repo
+Taipei-City-Dashboard-FE/dashboard-db-tools/
+dashboard-db-tools/
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
